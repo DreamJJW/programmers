@@ -23,3 +23,7 @@ else:
         print("x" + " + " + str(num_sum))
     else:
         print(str(x_sum) + "x" +  " + " + str(num_sum))
+
+# 유의 테스트 케이스
+# x의 계수가 1일 때, 1x 이렇게 출력되면 오답이다.
+# 식에서 변수가 없는 상수만을 return할 때, int가 아닌 str로 반환해야한다.
