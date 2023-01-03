@@ -19,6 +19,5 @@ def solution(keyinput, board):
             if abs(startY) > (board[1] - 1) // 2:
                 startY += 1
     return startX, startY
-
 # left right up right right
 # down down down down down
