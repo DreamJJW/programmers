@@ -8,4 +8,5 @@ def solution(emergency):
         answer.append(dic.get(temp[i]))
     print(answer)
 
-solution(emergency=[30, 10, 23, 6, 100])
+# solution(emergency=[30, 10, 23, 6, 100])
+
