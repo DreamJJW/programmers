@@ -11,8 +11,8 @@ def solution(num_list, n):
 solution(num_list=[100, 95, 2, 4, 5, 6, 18, 33, 948], n = int(input()))
 
 #
-def solution(num_list, n):
-    answer = []
-    for i in range(0, len(num_list), n):
-        answer.append(num_list[i:i+n])
-    return answer
+# def solution(num_list, n):
+#     answer = []
+#     for i in range(0, len(num_list), n):
+#         answer.append(num_list[i:i+n])
+#     return answer
