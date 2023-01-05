@@ -1,8 +1,7 @@
-def solution(rsp):
-    answer = ''
-    rsp = list(rsp)
-    win = {'2': '0', '0': '5', '5': '2'}
-    for i in rsp:
-        answer += win.get(i)
+from itertools import combinations
+def solution(balls, share):
+    answer = list(combinations(range(1, balls + 1), share))
+    print(len(answer))
     return answer
-solution(rsp='2')
+
+solution(balls= 3, share= 2)
